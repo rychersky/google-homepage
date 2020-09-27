@@ -90,14 +90,9 @@ main img {
   display: block;
 }
 
-form input {
-  margin: auto;
-}
-
 input[type="text"] {
   display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto;
   width: 400px;  
   padding: 8px 40px;
   border: 1px solid rgb(197, 197, 197);
@@ -106,4 +101,23 @@ input[type="text"] {
   background-size: 15px;
   background-repeat: no-repeat;
   background-position: 4%;
+}
+
+.search-buttons {
+  margin: auto;
+  display: flex;
+  width: 400px;
+  justify-content: center;
+}
+
+input[type="submit"] {
+  border: none;
+  border: 1px solid rgb(233, 233, 233);
+  background-color: rgb(233, 233, 233);
+  border-radius: 4px;
+  margin: 0px 6px;
+}
+
+input[type="submit"]:hover {
+  border: 1px solid grey;
 }
