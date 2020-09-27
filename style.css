@@ -78,3 +78,32 @@ header div.right a {
   height: 16px;
   vertical-align: middle;
 }
+
+main {
+  margin: auto;
+  padding-top: 140px;
+  max-width: 1000px;
+}
+
+main img {
+  margin: auto;
+  display: block;
+}
+
+form input {
+  margin: auto;
+}
+
+input[type="text"] {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;  
+  padding: 8px 40px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 24px;
+  background-image: url("assets/search-icon.svg");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 4%;
+}
