@@ -1,0 +1,80 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  font-size: 12px;
+}
+
+footer { 
+  background-color: rgb(238, 238, 238);
+  border-top: rgb(221, 221, 221) 1px solid;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2.5rem;
+  font-size: 14px;
+}
+
+.left {
+  margin-left: 20px;
+}
+
+.right {
+  padding-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer a {
+  color: rgb(85, 85, 85);
+}
+
+footer div.left a {
+  margin-right: 15px;
+}
+
+footer div.right a {
+  margin-left: 15px;
+}
+
+header a {
+  color: rgb(37, 37, 37);
+}
+
+header div.left a {
+  margin-right: 15px;
+}
+
+header div.right a {
+  margin-left: 15px;
+}
+
+.profile {
+  background-color: rgb(26, 162, 96);
+  padding: 6px 12px;
+  border-radius: 50%;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+#grid-menu {
+  display: inline-block;
+  height: 16px;
+  vertical-align: middle;
+}
